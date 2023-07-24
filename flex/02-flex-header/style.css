@@ -2,9 +2,18 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-links
+{
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .logo {
+  justify-self: center;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
