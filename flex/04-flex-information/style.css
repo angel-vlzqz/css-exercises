@@ -7,7 +7,7 @@ img {
   height: 100px;
 }
 
-.title
+.header
 {
   display: flex;
   justify-content: center;
@@ -16,6 +16,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
