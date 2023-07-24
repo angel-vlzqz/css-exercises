@@ -22,6 +22,12 @@ img {
 
 .plant {
   margin: 52px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
 }
 /* do not edit this footer */
 .footer {
