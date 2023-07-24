@@ -14,6 +14,6 @@ X All items are centered on the page (horizontally, not vertically).
 X The title is centered on the page.
 X There is 32px between the title and the 'items.'
 X There is 52px between each item.
-- The items are arranged horizontally on the page.
+X The items are arranged horizontally on the page.
 - The items are only 200px wide and the text wraps.
 - The item text is centered.
