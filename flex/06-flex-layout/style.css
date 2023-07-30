@@ -26,17 +26,26 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+.content {
   display: flex;
-  padding: 8px;
 }
 
+.header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
 
 .left-links {
   display: flex;
   flex: 1;
-  justify-content: left;
-  padding: 5px;
+  justify-self: left;
 }
 
 .right-links {
@@ -45,6 +54,16 @@ input {
   justify-content: right;
 }
 
+/* styles for header and footer */
 li {
-  padding: 0px 5px 0 5px;
+  padding: 8px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
