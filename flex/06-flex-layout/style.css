@@ -27,34 +27,31 @@ input {
   margin-bottom: 16px;
 }
 
-.container {
+body {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  background-color: azure;
+.header, .footer {
+  background-color: black;
   display: flex;
-  flex: 1;
-  align-items: center;
+  justify-content: space-between;
   padding: 8px;
 }
 
+.footer
+{
+  margin-top: auto;
+  background-color: #eeeeee;
+}
 .content {
   background-color: bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 16px;
-}
-
-.footer {
-  background-color: #eeeeee;
-  display: flex;
-  flex: 1;
-  padding: 8px;
 }
 
 .left-links {
