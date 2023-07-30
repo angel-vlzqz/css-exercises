@@ -27,7 +27,7 @@ X The footer is pushed to the bottom of the screen (the footer may go _below_ th
 X The footer text is centered horizontally and vertically.
 X The sidebar and cards take up all available space above the footer.
 X The sidebar is 300px wide (and it doesn't shrink).
-- The sidebar links are size 24px, are white, and do not have the underline text decoration.
+X The sidebar links are size 24px, are white, and do not have the underline text decoration.
 - The sidebar has 16px padding.
 - There is 32px padding around the 'cards' section.
 - The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
