@@ -22,14 +22,6 @@ body {
   color: white;
 }
 
-/* solution */
-.container {
-  display: flex;
-  margin: auto;
-  flex: 1;
-}
-/* solution */
-
 .footer {
   /* solution */
   display: flex;
@@ -54,6 +46,16 @@ body {
 }
 
 /* solution */
+.container {
+  display: flex;
+  margin: auto;
+  flex: 1;
+}
+
+.cards {
+  padding: 16px;
+}
+
 ul {
   list-style-type: none;
 }
