@@ -26,8 +26,10 @@ input {
   margin-bottom: 16px;
 }
 
-.content {
+.container {
   display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 .header {
@@ -36,10 +38,15 @@ input {
   align-items: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
+  background-color: #eeeeee;
   display: flex;
   flex: 1;
-  align-items: center;
   padding: 0px;
 }
 
