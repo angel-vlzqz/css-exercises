@@ -22,6 +22,12 @@ body {
   color: white;
 }
 
+.container {
+  display: flex;
+  margin: auto;
+  flex: 1;
+}
+
 .footer {
   /* solution */
   display: flex;
