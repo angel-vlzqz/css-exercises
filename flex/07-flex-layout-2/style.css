@@ -22,11 +22,13 @@ body {
   color: white;
 }
 
+/* solution */
 .container {
   display: flex;
   margin: auto;
   flex: 1;
 }
+/* solution */
 
 .footer {
   /* solution */
@@ -44,6 +46,10 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  /* solution */
+  display: flex;
+  flex-shrink: 0;
+  /* solution */
 }
 
 .card {
